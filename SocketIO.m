@@ -28,10 +28,9 @@
 #import "SocketIOTransportWebsocket.h"
 #import "SocketIOTransportXHR.h"
 
-#define DEBUG_LOGS 1
 #define DEBUG_CERTIFICATE 1
 
-#if DEBUG_LOGS
+#if DEBUG
 #define DEBUGLOG(...) NSLog(__VA_ARGS__)
 #else
 #define DEBUGLOG(...)
